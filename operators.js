@@ -37,6 +37,12 @@
  *                  message += "World!";
  *                  console.log(message);// prints "Hello World!"
  * Ternary Operators
+ *      ==> The Ternary operator takes three operands, a condition followed by a question mark(?), then an expression to execute if the confition is truthy, followed by a colon (:), and finally a conftion
+ *          to execute if the condition is falsy, this is an alternative to if....else statements.
+ *            Example:
+ *              function getFee(isMember){
+ *                  return isMember ? "$2.00" : "$10.00";
+ *                   };
  * Unary Operators
  *     ==> Unary Operators is an operation with one operand
  *          Example: 
