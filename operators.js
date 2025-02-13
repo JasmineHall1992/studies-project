@@ -24,6 +24,11 @@
  *              let a = 3;
  *              let x = (100 + 50) * a; 
  * Logical Operators
+ *      ==> Logical operators in javascript are used to combine or modify boolean values, resulting in a true or false evaluation
+ *          Example:
+ *              && is the AND operator, resolves if both conditions are true.
+ *              || is the OR operator, resolves if either condition is true.
+ *               ! is the bang operator, this flips the truthiness of the value.ß
  * String Operators
  * Ternary Operators
  * Unary Operators
