@@ -30,6 +30,12 @@
  *              || is the OR operator, resolves if either condition is true.
  *               ! is the bang operator, this flips the truthiness of the value.ß
  * String Operators
+ *      ==> String operators can be used on string values, but strings also work with the concatenation operator(+). Concatenation takes two string values and returns another string that is the union
+ *          of two operand strings.
+ *              Example:
+ *                  var message = "Hello";
+ *                  message += "World!";
+ *                  console.log(message);// prints "Hello World!"
  * Ternary Operators
  * Unary Operators
  *     ==> Unary Operators is an operation with one operand
