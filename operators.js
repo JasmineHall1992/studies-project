@@ -5,12 +5,22 @@
  * Operators are used to perform different types of mathematical and logical computations.
  * 
  * 1: (explanation)
- * The assignment operator ( = ) assigns value to a variable;
- * Example:
- * let x = 10;
+ *  Types of Operators
+ * ------------------------
+ * Assignment Operators
+ * Comparison Operators
+ *     ==> Compariaon Operators compare two values (two operands) and evaluate to a Boolean, true or false
+ *          Examples:
+ *                  Binary Comparison Operators
+ *                      console.log(1 < 2);
+ *                  Strict Comparison Operators 
+ *                      console.log(2 === 2);
+ * Arithmetic Operators
+ * Logical Operators
+ * String Operators
+ * Ternary Operators
+ * Unary Operators
  * 
- * The addition operator ( + ) add numbers;
- * Example
  * 
  * 
  * 
