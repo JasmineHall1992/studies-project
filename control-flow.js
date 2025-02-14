@@ -18,18 +18,23 @@
  *     ==> These statements are used for decision-making, a decision is made by the conditional statement based on an expression that is passed,
  *          either yes or no.
  *          Example: 
- *              function isItGoodWeather(weather){
- *                  if(weather === 'sunny){
- *                      console.log("Let's go out!");
- *                      } else {
- *                          console.log("It's not worth it.");
- *                          }
- *                        };
+ *            function isItGoodWeather(weather) {
+                    if (weather === 'sunny') { // Fixed missing closing quote
+                        console.log("Let's go out!");
+                        } else {
+                            console.log("It's not worth it.");
+                        }
+                    }
+
  * 
  * 
  *           Example 2(Ternary Operator):
  *                var isItGoodWeather = function(weather){
- *                      return sunny? "Let's go out!" : "It's not worth it."};
+ *                      return weather === sunny? "Let's go out!" : "It's not worth it.";
+ * };
  * Iterative Statements
- *      ==> 
+ *      ==> This is a statement that iterates repeatedly until a condition is met. Simply said, if we have an expression, the statement will keep
+ *          repeating itself util and unless it is satisfied.
+ *              Example:
+ *              var array = ['dog', 'cat', 'chicken', 'monkey', 'lion];
  */
