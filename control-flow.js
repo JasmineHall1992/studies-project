@@ -36,5 +36,23 @@
  *      ==> This is a statement that iterates repeatedly until a condition is met. Simply said, if we have an expression, the statement will keep
  *          repeating itself util and unless it is satisfied.
  *              Example:
- *              var array = ['dog', 'cat', 'chicken', 'monkey', 'lion];
- */
+ *                  var array = ['lion', 'bear', 'tiger', 'monkey'];
+ *                  function findAnimal(animal){
+ *                      let output = [];
+ *                       for (let i = 0; i < array.length; i++){
+ *                          if (array[i] === animal){
+ *                              output.push(array[i])
+ *                              }
+ *                            }
+ *                              return output;                             
+ *                          }
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+
