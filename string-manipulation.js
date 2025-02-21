@@ -55,8 +55,17 @@
  *                       const str3 = str1.concat(str2);
  *                       console.log(str3);// Output: "Hello World";
  *  split()
- *      ===>
- *  reverse
+ *      ===> Split separes a giving string into substrings using a specified separator provided in the argument.
+ *              Example: 
+ *                  const message = "the quick brown fox jumps over the lazy dog";
+ *                  const words = message.split(" ");
+ *                  console.log(words);  ["the" "quick" "brown" "fox" "jumps" "over" "the" "lazy" "dog"];
+ *  reverse()
+ *      ===> the reverse method reverses the elements in a string or array
+ *              Example:
+ *                  const word = "Hello";
+ *                  const reversed = word.split("").reverse().join("");
+ *                  console.log(reversed); // output: "olleH";
  *  join
  * regEx
  */
