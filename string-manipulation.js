@@ -43,8 +43,19 @@
  *                  let myString = "jasmine";
  *                  let returnedString = upperCaseFirstLetter(myString);
  *                  console.log(returnedString); // Output: "Jasmine";
- *  charAt
- *  split
+ *  charAt()
+ *      ===> returns the character at a specified index
+ *          Example: 
+ *              const str = "Hello";
+ *              console.log(str.charAt(0)); // Output: "H";
+ *  concat()
+ *      ===> The concat method in JavaScript joins or concatenates two or more strings together. It does not change the existing strings and returns a new string.
+ *              Example: const str1 = "Hello";
+ *                       const str2 = "World";
+ *                       const str3 = str1.concat(str2);
+ *                       console.log(str3);// Output: "Hello World";
+ *  split()
+ *      ===>
  *  reverse
  *  join
  * regEx
