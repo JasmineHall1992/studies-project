@@ -66,6 +66,17 @@
  *                  const word = "Hello";
  *                  const reversed = word.split("").reverse().join("");
  *                  console.log(reversed); // output: "olleH";
- *  join
+ *  join()
+ *     ===> The join methos is used to concatenate the elements of an array into a single string. 
+ *              Example:
+ *                  const message = ["I", "love", "you"];
+ *                  const sentence = message.join("");
+ *                  console.log(sentence); // "I love you";
  * regEx
+ *  ===> regular expressions are patterns used to match character combinations in strings. Regular Expressions are patterns used to search, match and replace text in strings/
+ *          Example:
+ *              const email = "user@example.com";
+                const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                console.log(emailRegex.test(email)); // true
+
  */
