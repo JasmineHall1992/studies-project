@@ -6,8 +6,8 @@
  * data. In doing so, we can pull out the values of a collection to work with them, one by one. There are many different types of loops, but the ones used in class are the : standard "for" loop,
  * the "for in" loop, and while loops.
  * 1. Examples
- *      ===> The standard "for loop" has three parts to define without a parenthesis: the start condition, the stop condition and the incrementor. These three steps are followed by a block 
- * of code that is executed for each step of the loop. This is used to iterated through indeces in an array.
+ *      ===> The standard "for loop" has three parts to define within a parenthesis: the start condition, the stop condition and the incrementor. These three steps are followed by a block 
+ * of code that is executed for each step of the loop. This is used to iterated through indices of an array.
  *          ====> forwards loop
  *                  for (let i = 0; i < array.length; i++){
  *                      console.log(array[i]);
@@ -25,16 +25,16 @@
  *                                   french: "bonjour le monde",
  *                                   lithuanian: "labas pasuali!"
  *                                  };
- *              ====> for (var key in helloWord){
- *                          console.log(helloWord[key]);
+ *              ====> for (var key in helloWorld){
+ *                          console.log(helloWorld[key]);
  *                          };
  *    ====> The "while" loop takes only one condition, and iterate until the condition evaluates to false. While loops are useful when you dont know how long the loop needs to be run. There is often
- * a starting condition, and incrementer but no stop condition. They can be dangerous if your while loop never becomes false, as your code will continue on into infinity and crash. 
+ * a starting condition, and incrementer but no stop condition. They can be dangerous because if your while loop never becomes false, your code will continue on into infinity and crash. 
  *          ======> var i = 1;
  *                  while ( i <= 10) {
  *                      console.log(i);
  *                      i++;
- *                  }  
+ *                  };  
  * 
  * 
  * 
